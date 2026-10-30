@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShoeHub - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Name: Most. Tanaka Anta Alam | ID: 2310364 -->
+
+  <header>
+    <h1>👟 ShoeHub</h1>
+    <p>Our Latest Collection</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html" class="active">Products</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Our Products</h2>
+      <p>Browse our wide range of shoes for men, women and kids. Each product is carefully selected to give you the perfect balance of comfort, durability and style.</p>
+      <p>Click "Add to Cart" on any product you like and we will get it ready for you.</p>
+    </section>
+
+    <!-- display: grid used here -->
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="images/shoe1.jpg" alt="Red Sneaker">
+        <h3>Red Runner</h3>
+        <p class="price">৳ 3,500</p>
+        <button onclick="addToCart('Red Runner')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/shoe2.jpg" alt="Blue Running Shoe">
+        <h3>Blue Sprint</h3>
+        <p class="price">৳ 4,200</p>
+        <button onclick="addToCart('Blue Sprint')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/shoe3.jpg" alt="Sport Pro Shoe">
+        <h3>Sport Pro</h3>
+        <p class="price">৳ 3,900</p>
+        <button onclick="addToCart('Sport Pro')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/shoe4.jpg" alt="Classic Walk Shoe">
+        <h3>Classic Walk</h3>
+        <p class="price">৳ 2,800</p>
+        <button onclick="addToCart('Classic Walk')">Add to Cart</button>
+      </div>
+    </section>
+
+    <p id="cart-message" class="cart-message"></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ShoeHub. All rights reserved.</p>
+    <p>Dhaka, Bangladesh | info@shoehub.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
