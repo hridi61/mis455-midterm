@@ -2,10 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShoeHub - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Name: Most. Tanaka Anta Alam | ID: 2310364 -->
-  <h1>ShoeHub</h1>
+
+  <header>
+    <h1>👟 ShoeHub</h1>
+    <p>Your one-stop online shoe store</p>
+  </header>
+
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Step Into Comfort & Style</h2>
+      <p>Welcome to ShoeHub, where we bring you the best quality shoes at affordable prices. Whether you need sneakers for running or formal shoes for the office, we have it all.</p>
+      <p>Our collection is updated every season, so you always find something fresh for yourself and your family.</p>
+      <button onclick="showOffer()">Get Today's Offer</button>
+      <p id="offer-text"></p>
+    </section>
+
+    <!-- display: flex used here -->
+    <section class="features">
+      <div class="feature-box">
+        <img src="images/shoe2.jpg" alt="Blue and black sneakers">
+        <h3>Premium Quality</h3>
+        <p>Every pair is made from durable materials designed to last for years.</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/shoe1.jpg" alt="Red running shoe">
+        <h3>Fast Delivery</h3>
+        <p>We deliver across Bangladesh within 2-3 working days, right to your door.</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/shoe4.jpg" alt="Blue leather sneakers">
+        <h3>Best Price</h3>
+        <p>Enjoy great discounts and seasonal offers on all our popular collections.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ShoeHub. All rights reserved.</p>
+    <p>Dhaka, Bangladesh | info@shoehub.com</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
